@@ -1,3 +1,5 @@
+My first React app. This app was created by me as a practice while I was learning React.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
