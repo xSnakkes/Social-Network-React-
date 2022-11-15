@@ -1,0 +1,41 @@
+.posts {
+  display: grid;
+  grid-template-columns: 100px auto;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #92d1fa;
+}
+
+.post__text {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+
+
+.posts__ava {
+  border: 1px solid #FDFCFF;
+  border-radius: 100%;
+  width: 90%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+
+
+.name__nickname {
+  color: rgb(136, 136, 133);
+}
+
+.name__username {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}

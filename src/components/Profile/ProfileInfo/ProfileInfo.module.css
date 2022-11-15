@@ -1,0 +1,43 @@
+
+
+.main__profile{
+}
+
+.main__profile {
+  margin: 50px 0px 100px 0px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 300px auto;
+  background-color: aliceblue;
+  border-radius: 30px;
+}
+
+.main__ava {
+  border: 1px solid #FDFCFF;
+  border-radius: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.main__name {
+  align-items: center;
+  margin-left: 20px;
+  display: grid;
+  grid-template-rows: 70px 0px;
+}
+
+.main__name_nickname {
+  color: rgb(136, 136, 133);
+}
+
+.main__name_username {
+  font-size: 30px;
+}
+

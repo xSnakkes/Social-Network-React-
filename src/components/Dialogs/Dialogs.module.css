@@ -1,0 +1,87 @@
+.dialogs {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh;
+    background-color: aliceblue;
+    border-radius: 25px;
+    height: 90vh;
+}
+
+
+.dialog__block {
+    display: grid;
+    grid-template-columns: 10fr 70fr;
+    grid-template-areas: 'sender' 'message';
+}
+
+.dialogs__name {
+    margin: 30px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.active__link {
+    background-color: rgb(211, 244, 247);
+    border-radius: 5%;
+}
+
+.dialogs__sender_name:hover {
+    background-color: rgb(211, 244, 247);
+}
+
+.messages_wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap{
+    padding-right: 300px;
+}
+
+.message_button {
+	background:linear-gradient(to bottom, #d9eef5 5%, #daf5fd 5%);
+	background-color:#ededed;
+	display:inline-block;
+	cursor:pointer;
+	color:#03d5fa;
+	font-family:Arial;
+	font-size:20px;
+	padding:7px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+    border-left: 3px solid aquamarine;
+}
+
+.message_button:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.message_button:active {
+	position:relative;
+	top:1px;
+}
+
+.text__area{
+    font-size: 20px;
+    width: 90%;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    border-radius: 3px;
+    background: #dcf5f7 !important;
+    color: #010507;
+    font-size: 20px;
+    font-family: Tahoma;
+}
+
+
+.messages_wrapper{
+    box-sizing: border-box;
+    border-top: 2px solid aquamarine;
+    border-left: 2px solid aquamarine;
+    border-right: 2px solid aquamarine;
+
+}

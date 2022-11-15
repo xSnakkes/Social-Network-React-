@@ -1,0 +1,78 @@
+.navbar {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: fixed;
+    margin-top: 100px;
+}
+
+.navbar__space {
+    margin-bottom: 10px;
+}
+
+
+.navbar__list {
+    position: relative;
+    text-transform: uppercase;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    padding-left: 10px;
+    text-decoration: none;
+    text-align: left;
+    border-radius: 24px;
+}
+
+.space {
+    margin-bottom: 10px;
+}
+
+.navbar__logo {
+    width: 20px;
+    padding-right: 10px;
+}
+
+.active__link {
+    background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+    background-color: #ffffff;
+    border-radius: 24px;
+}
+
+.navbar__list:hover {
+    background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+    background-color: #ffffff;
+    border-radius: 24px;
+}
+
+.navbar__list:active {
+    position: relative;
+    top: 1px;
+}
+
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}

@@ -1,0 +1,16 @@
+.header {
+    
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.header__logo {
+    height: auto;
+    width: 70px;
+    position: fixed;
+}
+
+.main{
+    box-sizing: border-box;
+    width: 100%;
+}

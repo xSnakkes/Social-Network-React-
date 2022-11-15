@@ -1,0 +1,6 @@
+.dialogs__sender {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    grid-area: 'sender';
+}

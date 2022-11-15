@@ -1,0 +1,14 @@
+.active__link {
+    background-color: rgb(201, 240, 243);
+    border-radius: 5%;
+}
+
+.dialogs__sender_name:hover{
+    background-color: rgb(201, 240, 243);
+}
+
+.dialogs__sender_name {
+    padding-right: 80px;
+    padding: 10px 30px 10px 30px;
+    border-bottom: 1px solid rgb(216, 220, 221);
+}

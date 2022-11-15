@@ -1,0 +1,23 @@
+.container{
+  margin: 0 auto;
+  max-width: 1800px;
+  
+}
+
+.app__wrapper{
+  display: grid;
+  grid-template-columns: 10fr 80fr;
+}
+
+body{
+  background-color: rgb(217, 241, 234);
+}
+
+
+
+
+
+
+
+
+
